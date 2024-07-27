@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Reservation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Basal's Favorite Links</h1>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <form id="linkForm">
+                <label for="linkInput">Enter a link to reserve:</label>
+                <input type="url" id="linkInput" required placeholder="https://example.com">
+                <button type="submit">Reserve</button>
+            </form>
+        </section>
+
+        <section class="links-section">
+            <h2>Reserved Links</h2>
+            <ul id="linksList"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p class="creator">Created by <span class="name">Beshoy Ashraf</span></p>
+    </footer>
+
+    <script src="style.js"></script>
+</body>
+</html>
